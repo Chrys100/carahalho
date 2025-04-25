@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 expo start",
-    "build:web": "expo export --platform web",
-    "lint": "expo lint"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
